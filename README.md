@@ -16,8 +16,8 @@ Projeto de landing page para recrutamento de corretores, com backend em Flask pa
 
 ## Funcionalidades
 
-- Página principal com formulário de cadastro
-- Envio de emails pelo Flask-Mail usando SMTP do Outlook
+- Leasding Page com Informações.
+- Envio de dados do Formulário 
 - Validação simples de dados no backend
 - Configuração via variáveis de ambiente (`.env`)
 
