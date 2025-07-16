@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programa de Parcerias | EZTEC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  <meta name="theme-color" content="#8a1a1a">
+  <link rel="preload" href="{{ url_for('static', filename='img/logo-eztec.png') }}" as="image">
+</head>
+
+<body class="modern-body">
+
+<!-- Barra de navegação com logo -->
+<nav class="modern-nav">
+  <div class="container nav-container">
+    <a href="/" class="nav-logo">
+      <img src="{{ url_for('static', filename='img/logoico32x32.png') }}" alt="EZTEC" class="logo-img">
+      <span class="manager-title">Jean</span>
+    </a>
+     <div class="nav-banner">
+      <span class="banner-text">UMA MARCA CONECTADA</span>
+      <span class="banner-text">AOS NOVOS TEMPOS</span>
+    </div>
+  </div>
+</nav>
+  </div>
+</nav>
+
+<header class="modern-header">
+  <div class="container header-content">
+    <div class="header-text">
+      <h1 class="header-title">Seja um Corretor EZTEC: Alcance Metas Extraordinárias com Nossa Equipe</h1>
+      <p class="header-subtitle">"Na EZTEC, valorizamos talentos que buscam crescimento e excelência. Como gerente, estou aqui para oferecer suporte, ferramentas de alto desempenho e oportunidades únicas no mercado. Quero conhecer você e juntos transformar desafios em conquistas".</p>
+      <p class="header-subtitle"> - Jean Eric </p>
+      <div class="header-cta">
+        <div class="trust-badges">
+        </div>
+      </div>
+    </div>
+    <div class="header-visual">
+      <div class="floating-elements">
+        <div class="floating-key"></div>
+        <div class="floating-building"></div>
+      </div>
+    </div>
+  </div>
+    <div class="header-visual">
+      <div class="floating-elements">
+        <div class="floating-key"></div>
+        <div class="floating-building"></div>
+      </div>
+    </div>
+  </div>
+  <div class="header-wave">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" fill="currentColor"></path>
+      <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" fill="currentColor"></path>
+      <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" fill="currentColor"></path>
+    </svg>
+  </div>
+</header>
+
+<section id="vantagens" class="benefits-section modern-section" aria-label="Benefícios para Corretores EZTEC">
+  <div class="container">
+    <h2 class="section-title">Vantagens Exclusivas</h2>
+    <div class="section-divider"></div>
+    <div class="benefits-grid">
+      <article class="benefit-card">
+        <div class="card-icon">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <h3>Remuneração Premium</h3>
+        <p>Comissões acima da média do mercado + bônus por performance</p>
+      </article>
+      
+      <article class="benefit-card">
+        <div class="card-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <h3>Destaque</h3>
+        <p>Produtos Exclusivos - Acesso antecipado aos melhores lançamentos</p>
+      </article>
+      
+      <article class="benefit-card">
+        <div class="card-icon">
+          <i class="fas fa-laptop-code"></i>
+        </div>
+        <h3>Tecnologia Avançada</h3>
+        <p>Plataforma digital com ferramentas inteligentes de vendas</p>
+      </article>
+      
+      <article class="benefit-card">
+        <div class="card-icon">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+        <h3>Capacitação</h3>
+        <p>Treinamentos com especialistas do mercado imobiliário</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="depoimentos" class="testimonials-section modern-section" aria-label="Depoimentos de Corretores Parceiros">
+  <div class="container">
+    <h2 class="section-title">Quem já transformou sua carreira</h2>
+    <div class="section-divider"></div>
+    <div class="testimonials-grid">
+      
+      <!-- Depoimento 1 - Ellen Goés -->
+      <article class="testimonial-card">
+        <div class="testimonial-avatar-container">
+          <div class="testimonial-avatar">
+            <img src="{{ url_for('static', filename='img/Ellen Goés.png') }}" alt="Ellen Goés" loading="lazy">
+          </div>
+        </div>
+        <div class="testimonial-content">
+          <i class="fas fa-quote-left quote-icon"></i>
+          <p class="testimonial-text">"É com grande admiração que venho falar desse profissional e ser humano incrível Jean Eric é um líder inspirador, sempre disposto a apoiar e desenvolver o potencial de cada membro da equipe. Sua visão estratégica e habilidades de resolução de conflitos são notáveis, contribuindo para um clima organizacional positivo e produtivo. Sem dúvida, um profissional exemplar."</p>
+        </div>
+        <div class="testimonial-author">
+          <strong>Ellen Goés</strong>
+          <span>Supervisora</span>
+          <span>Ingressou em 2021</span>
+        </div>
+      </article>
+      
+      <!-- Depoimento 2 - Matheus -->
+      <article class="testimonial-card">
+        <div class="testimonial-avatar-container">
+          <div class="testimonial-avatar">
+            <img src="{{ url_for('static', filename='img/placeholder.jpg') }}" alt="Matheus" loading="lazy">
+          </div>
+        </div>
+        <div class="testimonial-content">
+          <i class="fas fa-quote-left quote-icon"></i>
+          <p class="testimonial-text">"Depoimento em breve..."</p>
+        </div>
+        <div class="testimonial-author">
+          <strong>Matheus</strong>
+          <span>Consultor</span>
+          <span>Ingressou em 2023</span>
+        </div>
+      </article>
+      
+      <!-- Depoimento 3 - Renata -->
+      <article class="testimonial-card">
+        <div class="testimonial-avatar-container">
+          <div class="testimonial-avatar">
+            <img src="{{ url_for('static', filename='img/Renata 600x600.png') }}" alt="Renata" loading="lazy">
+          </div>
+        </div>
+        <div class="testimonial-content">
+          <i class="fas fa-quote-left quote-icon"></i>
+          <p class="testimonial-text">"Tive o privilégio de trabalhar ao lado do Jean Eric, e posso afirmar com toda segurança. Um dos profissionais mais competentes e inspiradores que conheci. Sempre disposto a ouvir, orientar e buscar as melhores soluções e resultados, ele faz a diferença por onde passa."</p>
+        </div>
+        <div class="testimonial-author">
+          <strong>Renata</strong>
+          <span>Corretora</span>
+          <span>Ingressou em 2015</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<button id="openFormBtn" class="floating-btn" aria-label="Abrir formulário de cadaastro">
+  <i class="fas fa-user-plus"></i>
+  <span class="floating-tooltip">Quero participar</span>
+</button>
+
+<div id="formOverlay" class="form-overlay"></div>
+
+<section class="form-section" id="formulario" aria-label="Formulário de Contato">
+  <div class="form-container">
+    <button class="close-form-btn" aria-label="Fechar formulário">
+      <i class="fas fa-times"></i>
+    </button>
+    
+    <div class="form-header">
+      <img src="{{ url_for('static', filename='img/LogoTecVendas.png') }}" alt="EZTEC" class="form-logo">
+      <h2>Cadastre-se Agora</h2>
+      <p>Preencha seus dados, entraremos em contato</p>
+    </div>
+    
+    <!-- FORMULÁRIO LIMPO -->
+
+  <form id="recrutamentoForm" class="modern-form" novalidate>
+    <!-- Campo Nome Completo -->
+    <div class="form-group">
+      <input type="text" id="name" name="name" required />
+      <label for="name">Nome Completo</label>
+    </div>
+    
+    <!-- Campo E-mail -->
+    <div class="form-group">
+      <input type="email" id="email" name="email" required />
+      <label for="email">E-mail</label>
+    </div>
+    
+    <!-- Campo Telefone -->
+    <div class="form-group">
+      <input type="tel" id="telefone" name="telefone" required />
+      <label for="telefone">Telefone</label>
+    </div>
+    
+    <!-- Campo Mensagem -->
+    <div class="form-group">
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+      <label for="mensagem">Mensagem</label>
+    </div>
+
+    <!-- Botão de Envio -->
+    <button type="submit" class="modern-btn primary-btn submit-btn">
+      <span>Enviar cadastro</span>
+      <i class="fas fa-paper-plane"></i>
+    </button>
+  </form>
+
+    <div class="form-footer">
+      <p>Ao enviar, você concorda com nossos <a href="/politica-de-privacidade" target="_blank">Termos de Uso</a> e <a href="/politica-de-privacidade" target="_blank">Política de Privacidade</a>.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="modern-footer">
+  <div class="container footer-content">
+    <div class="footer-brand">
+      <img src="{{ url_for('static', filename='img/logoez.png') }}" alt="EZTEC" class="footer-logo">
+      <p class="footer-slogan">Transformando o mercado imobiliário com inovação e confiança.</p>
+      
+      <div class="social-links">
+        <a href="https://www.facebook.com/jeanericez/
+" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/jean-eric-sousa-697287374/ " target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.instagram.com/jeanericez?igsh=MWF1ZnphYTVvaDhnZg%3D%3D&utm_source=qr
+" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+    
+    <div class="footer-contact">
+      <h3 class="footer-title">Contato</h3>
+      <ul class="contact-list">
+        <li class="contact-item">
+          <i class="fas fa-phone"></i>
+          <a href="tel:+5511947787630">(11) 94778-7630</a>
+        </li>
+        <li class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:jeoneric@teevendasassociados.com.br">jeoneric@teevendasassociados.com.br</a>
+        </li>
+        <li class="contact-item address">
+          <i class="fas fa-map-marker-alt"></i>
+          <a href="https://maps.google.com/?q=R.+Domingos+de+Moreis,+2187+Torre+Dubai+-+Sala+114,+Vila+Mariana,+São+Paulo,+SP" target="_blank" rel="noopener noreferrer">
+            R. Domingos de Moreis, 2187 Torre Dubai - Sala 114<br>
+            Vila Mariana - São Paulo - SP
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="footer-copyright">
+    <p>&copy; <span id="current-year">2025</span> EZTEC. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('recrutamentoForm');
+    
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // Coletar dados do formulário
+      const nome = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const telefone = document.getElementById('telefone').value;
+      const mensagem = document.getElementById('mensagem').value;
+      
+      // Criar mensagem para o WhatsApp
+      const textoWhatsApp = `*Novo Cadastro EZTEC*%0A%0A` +
+                           `*Nome:* ${nome}%0A` +
+                           `*E-mail:* ${email}%0A` +
+                           `*Telefone:* ${telefone}%0A` +
+                           `*Mensagem:* ${mensagem}%0A%0A` +
+                           `_Este contato veio através do site_`;
+      
+      // Número do WhatsApp (substitua pelo seu número)
+      const numeroWhatsApp = '5511947767630'; // Seu número com código do país (55 Brasil) e DDD (11)
+      
+      // Redirecionar para o WhatsApp
+      window.open(`https://wa.me/${5511947767630}?text=${textoWhatsApp}`, '_blank');
+      
+      // Opcional: Resetar o formulário após envio
+      form.reset();
+      
+      // Opcional: Fechar o formulário após envio
+      document.querySelector('.close-form-btn').click();
+      
+      // Opcional: Mostrar mensagem de sucesso
+      alert('Cadastro enviado com sucesso! Você será redirecionado para o WhatsApp.');
+    });
+    
+    // Máscara para o telefone (opcional)
+    const telefoneInput = document.getElementById('telefone');
+    telefoneInput.addEventListener('input', function(e) {
+      let value = e.target.value.replace(/\D/g, '');
+      value = value.replace(/^(\d{2})(\d)/g, '($1) $2');
+      value = value.replace(/(\d)(\d{4})$/, '$1-$2');
+      e.target.value = value;
+    });
+  });
+</script>
+</body>
+</html>
