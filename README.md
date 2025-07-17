@@ -1,148 +1,54 @@
-📄 README.md
-markdown
-Copy
-Edit
-# 🌐 Site Jean - Formulário com Flask
+# 🏢 EZTEC - Portal de Recrutamento de Corretores
 
-Este é um projeto simples de site com front-end em HTML, CSS e JavaScript, integrado com um backend em Flask (Python). O objetivo é capturar dados de um formulário e processá-los de forma segura via API POST. Ideal para landing pages com captura de leads, formulários de contato, ou páginas institucionais.
+Este projeto foi desenvolvido para atender à demanda de um **gerente de corretores da EZTEC** que busca **contratar novos profissionais** de forma moderna, eficiente e digital.
+
+A aplicação consiste em uma **landing page institucional responsiva**, que apresenta a empresa e contém um **formulário de cadastro de corretores**. Os dados enviados pelo formulário (nome, e-mail, telefone e mensagem) são processados no backend usando Flask (Python).
 
 ---
 
-## 📁 Estrutura do Projeto
+## 🎯 Objetivo
 
-SITE_JEAN/
-│
-├── backend/
-│ ├── init.py
-│ ├── app.py
-│ ├── requirements.txt
-│ ├── runtime.txt
-│ ├── render.yaml
-│ ├── start.sh
-│ └── .env
-│
-├── frontend/
-│ ├── static/
-│ │ ├── css/
-│ │ │ └── main.css
-│ │ ├── img/
-│ │ │ └── [imagens diversas]
-│ │ └── js/
-│ │ └── app.js
-│ └── templates/
-│ └── index.html
-│
-└── venv/ (virtualenv)
-
-yaml
-Copy
-Edit
+O site tem como principal finalidade **captar corretores interessados em fazer parte da equipe EZTEC**, oferecendo uma experiência fluida e profissional para o envio de informações, que poderão ser tratadas pelo gerente responsável.
 
 ---
 
-## 🚀 Como Rodar Localmente
+## 🛠 Tecnologias Utilizadas
 
-### 1. Clone o Repositório
+### 🧠 Backend
 
-```bash
-git clone https://github.com/seu-usuario/site-jean.git
-cd site-jean/backend
-2. Crie e Ative o Ambiente Virtual
-bash
-Copy
-Edit
-# Windows
-python -m venv venv
-venv\Scripts\activate
+- **Python 3**
+- **Flask** – microframework web para criação da API
+- **dotenv** – gerenciamento de variáveis sensíveis (como chaves secretas)
+- **Flask-WTF** (opcional) – para validação de formulários (caso incluído depois)
 
-# Linux/Mac
-python3 -m venv venv
-source venv/bin/activate
-3. Instale as Dependências
-bash
-Copy
-Edit
-pip install -r requirements.txt
-4. Configure o Arquivo .env
-Crie um arquivo chamado .env dentro da pasta backend/ com o seguinte conteúdo:
+### 🎨 Frontend
 
-ini
-Copy
-Edit
-FLASK_SECRET_KEY=sua_chave_super_secreta
-5. Execute o Servidor Flask
-bash
-Copy
-Edit
-python app.py
-Abra seu navegador em http://localhost:5000
+- **HTML5** – estrutura da página
+- **CSS3** – estilização visual
+- **JavaScript (Vanilla)** – envio assíncrono dos dados via `fetch()`
+- **Responsividade** – design adaptado para dispositivos móveis e desktops
 
-🌍 Rotas da Aplicação
-Rota	Método	Descrição
-/	GET	Carrega o index.html do front-end
-/enviar-cadastro	POST	Recebe JSON com name, email, telefone, message
+### ⚙️ Infraestrutura
 
-📥 Exemplo de Envio POST
-json
-Copy
-Edit
-POST /enviar-cadastro
-Content-Type: application/json
+- **Render** – serviço gratuito usado para deploy do projeto
+- **start.sh & render.yaml** – scripts para facilitar o deploy automatizado
 
-{
-  "name": "Jean Silva",
-  "email": "jean@email.com",
-  "telefone": "11999999999",
-  "message": "Gostaria de mais informações."
-}
-🛠 Tecnologias Utilizadas
-Python 3.11+
+---
 
-Flask
+## 📌 Destaques
 
-HTML5
+- Integração completa entre frontend e backend
+- Estrutura organizada em pastas: `backend/` e `frontend/`
+- Recebimento de dados via API em formato JSON
+- Pronto para produção com variáveis de ambiente e deploy automatizado
 
-CSS3
+---
 
-JavaScript (vanilla)
+> **Desenvolvido por:** Larissa Moraes  
+> Projeto profissional para o setor de corretagem da **EZTEC**.
 
-dotenv
+## 📄 Licença
 
-VS Code
+Este projeto é **proprietário e de uso exclusivo**. Nenhuma parte do código pode ser copiada, modificada, distribuída ou reutilizada sem permissão expressa da autora.
 
-☁️ Deploy com Render
-Este projeto está pronto para ser hospedado gratuitamente na Render. Basta seguir os passos abaixo:
-
-✅ Requisitos:
-render.yaml configurado
-
-start.sh para iniciar o app
-
-Comandos da Render:
-Start command:
-
-bash
-Copy
-Edit
-./start.sh
-Build command:
-(Deixe em branco ou use pip install -r backend/requirements.txt)
-
-Runtime: Python 3.x
-
-Variáveis de ambiente:
-
-FLASK_SECRET_KEY
-
-🙋‍♀️ Desenvolvedora
-Feito com dedicação por Larissa Moraes
-📧 Email: larissamoraes@email.com
-💼 LinkedIn: linkedin.com/in/larissamoraes
-
-📄 Licença
-Distribuído sob a licença MIT.
-Veja o arquivo LICENSE para mais detalhes.
-
-yaml
-Copy
-Edit
+© 2025 Larissa Moraes – Todos os direitos reservados.
